@@ -1,6 +1,6 @@
 package com.fcb.springboot.dao;
 
-import com.fcb.springboot.pojo.UserPO;
+import com.fcb.springboot.dao.pojo.UserPO;
 
 public interface UserDao {
 

@@ -1,7 +1,7 @@
 package com.fcb.springboot.mapper;
 
-import com.fcb.springboot.dto.UserDTO;
-import com.fcb.springboot.pojo.UserPO;
+import com.fcb.springboot.service.dto.UserDTO;
+import com.fcb.springboot.dao.pojo.UserPO;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 

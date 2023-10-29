@@ -1,7 +1,7 @@
 package com.fcb.springboot.service;
 
 import com.fcb.springboot.dao.UserDao;
-import com.fcb.springboot.dto.UserDTO;
+import com.fcb.springboot.service.dto.UserDTO;
 import com.fcb.springboot.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

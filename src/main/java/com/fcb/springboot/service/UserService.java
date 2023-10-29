@@ -1,6 +1,6 @@
 package com.fcb.springboot.service;
 
-import com.fcb.springboot.dto.UserDTO;
+import com.fcb.springboot.service.dto.UserDTO;
 
 public interface UserService {
 

@@ -1,4 +1,4 @@
-package com.fcb.springboot.dto;
+package com.fcb.springboot.service.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

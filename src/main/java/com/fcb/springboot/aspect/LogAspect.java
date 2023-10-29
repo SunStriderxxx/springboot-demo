@@ -16,15 +16,12 @@ import org.springframework.stereotype.Component;
 public class LogAspect {
 
     //这个方法定义了切入点
-    @Pointcut("@within(com.fcb.springboot.aspect.anno.MyLog)")
+    @Pointcut("@within(com.fcb.springboot.aspect.anno.MyLog) || @annotation(com.fcb.springboot.aspect.anno.MyLog)")
     public void pointCut() {}
 
     //这个方法定义了具体的通知
     @After("pointCut()")
     public void recordRequestParam(JoinPoint joinPoint) {
-        MyLog annotation = joinPoint.getTarget().getClass().getAnnotation(MyLog.class);
-        System.out.println(annotation.annotationType());
-        System.out.println(annotation.value());
         for (Object s : joinPoint.getArgs()) {
             //打印所有参数，实际中就是记录日志了
             System.out.println("after advice : " + s);

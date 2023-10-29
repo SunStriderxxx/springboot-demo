@@ -1,4 +1,4 @@
-package com.fcb.springboot.pojo;
+package com.fcb.springboot.dao.pojo;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
